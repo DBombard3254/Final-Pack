@@ -1,0 +1,8 @@
+#! /bin/bash
+
+echo "Examples below that show the difference between ' and ".
+
+echo $100
+echo "$100"
+echo '$100'
+
