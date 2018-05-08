@@ -1,0 +1,7 @@
+#! /bin/bash
+
+echo "This chapter talks about default locations for paths."
+
+ls -lha /usr/local/bin
+ls -lha /usr/bin
+ls -lha /bin
