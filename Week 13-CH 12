@@ -1,0 +1,6 @@
+#! /bin/bash
+
+echo "In this chapter it talks about file transfers, and here is how to do it."
+
+rsync -nva ~/127.0.0.1:/mnt/Backups
+
