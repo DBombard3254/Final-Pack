@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "I will attempt to review and redo my scripts i submitted for my midterm"
+echo "I will be expereimenting with Devices in this Lab."
+
+cd /dev
+ls
+blkid
+blkid -k
+lsblk
