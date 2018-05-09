@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "I will attempt to review and redo my scripts i submitted for my midterm"
+echo "In this lab i will be experimenting with systemctl"
+
+systemctl list-units
+systemctl list-units --type=service
+systemctl status cups.service
+systemctl -p UnitPath show
+systemctl list-dependencies cups.service
