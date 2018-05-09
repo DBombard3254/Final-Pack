@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "I will attempt to review and redo my scripts i submitted for my midterm"
+echo "I will be making some files and mocing them into different locations."
+
+mkdir Folder1
+ls
+cd Folder1
+cd /home
+mkdir Folder2
+mv Folder2 Folder1
+cd Folder1
+ls
+
