@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "I will attempt to review and redo my scripts i submitted for my midterm"
+echp "In this Lab i will be experimenting with partitions"
+
+fdisk -l
+fdisk -l /dev/sda1
+dd if=/dev/zero of=./64MB.img bs=1M count=64
+hexdump./64MB.img | less
+sudo mkfs -t ext4 ./64MB.img
+
